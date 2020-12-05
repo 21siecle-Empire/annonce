@@ -63,7 +63,6 @@ body{
     color: #0e2044;
     margin: 5px;
 }
-/* audio{
-    background-color: #0e2044;
-    color: #0e2044;
-} */
+audio{
+    width: 100%;
+}
