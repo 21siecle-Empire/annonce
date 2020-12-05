@@ -1,0 +1,69 @@
+@font-face{
+    font-family: 'pacifico';
+    src: url(../fonts/pacifico-regular.ttf);
+}
+html{
+    box-sizing: border-box;
+}
+*,::after,::before{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+    padding-top: 50px;
+}
+#tsparticles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#content{
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+#brand{
+    width: 40%;
+    height: 100%;
+    padding-left: 10px;
+    color: #000000;
+
+}
+.brand-text{
+    font-size: 2rem;
+    font-family: 'pacifico';
+    text-decoration: underline;
+}
+#brand-img{
+    width: 60%;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+#brand-img img{
+    width: 90%;
+    position: relative;
+    left: 40px;
+}
+.social_media a{
+    color: #0e2044;
+    margin: 5px;
+}
+/* audio{
+    background-color: #0e2044;
+    color: #0e2044;
+} */
